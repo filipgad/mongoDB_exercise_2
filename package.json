@@ -1,0 +1,26 @@
+{
+  "name": "mongodb_exercise_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipgad/mongoDB_exercise_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipgad/mongoDB_exercise_2/issues"
+  },
+  "homepage": "https://github.com/filipgad/mongoDB_exercise_2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mocha": "^5.0.1",
+    "mongoose": "^5.0.6",
+    "supertest": "^3.0.0"
+  }
+}
